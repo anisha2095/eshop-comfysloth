@@ -1,0 +1,29 @@
+.cart-wrap a {
+    color: #102a42;
+    font-size: 1.5rem;
+    position: relative;
+}
+.cart-wrap button {
+    color: #102a42;
+    font-size: 1.5rem;
+    background: transparent;
+    border: none;
+    margin-left: 22px;
+}
+.cart-wrap span {
+    background: #ab7a5f;
+    font-size: 0.75rem;
+    width: 20px;
+    height: 20px;
+    display: block;
+    position: absolute;
+    border-radius: 50%;
+    color: #fff;
+    text-align: center;
+    right: -10px;
+    top:0;
+}
+
+@media (min-width: 768px) and (max-width: 1199px){
+
+}

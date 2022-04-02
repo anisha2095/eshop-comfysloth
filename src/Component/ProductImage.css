@@ -1,0 +1,50 @@
+.mainImage img {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+}
+.smallImg {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+.mainImage .smallImg img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.mainImage .smallImg img.active {
+    border: 4px solid #ab7a5f;
+}
+.back-btn button.brown-btn {
+    padding: 0.4rem;
+    width: 20%;
+}
+
+@media (min-width: 992px) and (max-width: 1199px){
+    .smallImg {
+        flex-wrap: wrap;
+        margin: 20px 0;
+    }
+    .mainImage .smallImg img {
+        margin-bottom: 20px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px){
+    .back-btn button.brown-btn {
+        width: 32%;
+    }
+    .product_info {
+        margin: 10px 0 30px;
+    }
+}
+
+@media (max-width: 567px){
+    .smallImg {
+        flex-flow: wrap;
+        justify-content: start;
+    }
+}

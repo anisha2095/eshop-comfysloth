@@ -1,0 +1,39 @@
+h3 {
+    text-transform: capitalize;
+    font-weight: bold;
+}
+.product_info span {
+    padding: 0 11px;
+    font-weight: 400;
+}
+button.productInfo_color {
+    margin: 5px 0 0 10px;
+    border: 1px solid #fff;
+}
+button.productInfo_color.active {
+    border: 1px solid #000;
+}
+.quantity-btn button {
+    background: transparent;
+    border: 0;
+    font-size: 2rem;
+    font-weight: bold;
+}
+.quantity-btn span {
+    font-size: 2rem;
+}
+
+@media (min-width: 768px) and (max-width: 1199px){
+
+}
+@media (max-width:767px){
+    .product_info span {
+        padding: 0 3px;
+    }
+    .product_info {
+        margin-bottom: 30px;
+    }
+    .back-btn button.brown-btn {
+        width: 50%;
+    }
+}

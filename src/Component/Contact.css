@@ -1,0 +1,32 @@
+.App .contact h2 {
+    font-size: 2rem;
+}
+.contact {
+    padding: 5rem 0;
+}
+.App .contact h2:after {
+    margin: 0;
+}
+.contact input {
+    height: 52px;
+    padding: 23px;
+}
+.contact .brown-btn {
+    border-radius: 0 0.25rem 0.25rem 0;
+}
+
+@media (min-width: 992px) and (max-width: 1199px){
+    .App .contact h2:after {
+        top: 87px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px){
+    .App .contact h2:after {
+        top: 96px;
+    }
+    .contact button.brown-btn {
+        width: 40%;
+        border-radius: 0.25rem;
+    }
+}

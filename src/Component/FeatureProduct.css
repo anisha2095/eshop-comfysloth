@@ -1,0 +1,41 @@
+.featured-product img{
+    height: 225px;
+    width: 100%;
+}
+.featured-product {
+    background: #f1f5f8;
+    padding: 5rem;
+    text-align: center;
+}
+.featured-product a.brown-btn {
+    width: 14%;
+    margin-top: 30px;
+}
+
+@media (min-width: 992px) and (max-width: 1199px){
+    .featured-product a.brown-btn {
+        width: 17%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px){
+    .featured-product a.brown-btn {
+        width: 24%;
+    }
+}
+
+@media (max-width: 767px){
+    .featured-product {
+        padding: 5rem 0;
+    }
+    .featured-product p {
+        margin: 0;
+    }
+    .App .contact h2:after {
+        top: 95px;
+    }
+    .featured-product a.brown-btn {
+        width: 100%;
+    }
+}
+

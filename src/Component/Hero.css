@@ -1,0 +1,80 @@
+.hero-img .bg1 img {
+    width: 440px;
+    height: 550px;
+    position: relative;
+    left: 0;
+}
+.hero-img img {
+    width: 250px;
+    position: absolute;
+    border-radius: 5px;
+    left: -5%;
+    bottom: 0;
+}
+
+.hero-img {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    position: relative;
+}
+.bg1{
+    position: relative;
+}
+.bg1:before {
+    content: "";
+    position: absolute;
+    width: 10%;
+    height: 37%;
+    background: #decbc0;
+    left: -44px;
+    bottom: 165px;
+}
+h1 {
+    font-size: 3rem;
+    line-height: 1;
+    font-weight: bold;
+}
+p {
+    line-height: 2;
+    font-size: 1.25rem;
+    color: #617d98;
+}
+
+
+@media (min-width: 992px) and (max-width: 1199px){
+    .hero-img .bg1 img {
+        width: 348px;
+    }
+    .bg1:before{
+        left: -33px;
+    }
+}
+@media (min-width: 768px) and (max-width: 991px){
+    .order2 {
+        order: 2;
+    }
+    .order1 {
+        order: 1;
+    }
+    .hero-img img{
+        left: 0;
+    }
+    .hero-img {
+        margin-bottom: 50px;
+    }
+}
+
+@media (max-width: 767px){
+    .hero-img {
+        margin: 20px 0 30px;
+        flex-direction: initial;
+    }
+    .sort_field {
+        display: inherit;
+        margin-top: 20px;
+    }
+    hr {
+        margin-top: 0.5rem;
+    }
+}

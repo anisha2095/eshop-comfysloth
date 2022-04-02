@@ -1,0 +1,23 @@
+.sort_field {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.sort_field p {
+    margin-bottom: 0;
+    font-size: 1rem;
+    font-weight: 600;
+}
+.sort_field button {
+    background: transparent;
+    border: 1px solid #000;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+.sort_field button.active {
+    background: #eaded7;
+}
+
+@media (min-width: 768px) and (max-width: 1199px){
+
+}

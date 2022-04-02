@@ -1,0 +1,13 @@
+.aboutPage img {
+    width: 100%;
+}
+.aboutPage {
+    margin: 5rem 0;
+}
+.App .aboutPage h2::after {
+    margin: 0;
+}
+
+@media (min-width: 768px) and (max-width: 1199px){
+
+}

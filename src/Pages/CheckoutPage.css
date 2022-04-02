@@ -1,0 +1,16 @@
+.checkoutPage {
+    height: 56vh;
+}
+.checkoutPage {
+    height: 56vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.checkoutPage h5 {
+    font-size: 3rem;
+}
+
+@media (min-width: 768px) and (max-width: 1199px){
+
+}

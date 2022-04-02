@@ -1,0 +1,10 @@
+.featured-product p {
+    color: #ab7a5f;
+    margin-bottom: 59px;
+}
+
+@media (min-width: 768px) and (max-width: 991px){
+    .featured-product p {
+        margin-bottom: 0px;
+    }
+}
